@@ -1,0 +1,41 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.season-display.summer i {
+  color: red;
+  filter: drop-shadow(2px 2px 12px rgba(0, 0, 0, 0.2));
+}
+
+.season-display.winter i {
+  color: blue;
+  filter: drop-shadow(2px 2px 12px rgba(0, 0, 0, 0.2));
+}
+
+.season-display.summer {
+  background: orange;
+}
+
+.season-display.winter {
+  background: aliceblue;
+}
+
+.main-head {
+  font-size: 3rem;
+  color: #333;
+}
